@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* background-color: antiquewhite; */
+  padding: 12px 0;
+}
+
+/* Logo */
+.navbar .logo {
+  display: flex;
+  align-items: baseline;
+}
+.navbar .logo .logo-title {
+  font-size: 24px; /* Example size */
+  margin-right: 4px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.navbar .logo .logo-subtitle,
+.navbar .logo .logo-subtitle a {
+  font-size: 16px; /* Example size */
+  font-weight: 400;
+}
+.navbar .logo .logo-subtitle a {
+  color: inherit;
+  text-decoration: none;
+}
+.navbar .logo .logo-subtitle a:hover {
+  text-decoration: underline;
+}
+
+/* Icons */
+.navbar .icons {
+  display: flex;
+  align-items: center;
+}
+.navbar .icons svg {
+  width: 20px;
+  height: 20px;
+  stroke: black;
+  cursor: pointer;
+}
+.navbar .icons svg:not(:last-child) {
+  margin-right: 8px;
+}
+.navbar .icons svg:hover {
+  stroke: red;
+}
